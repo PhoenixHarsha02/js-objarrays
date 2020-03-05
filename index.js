@@ -69,3 +69,21 @@ obj.setLocation("Chennai");
 console.log(obj.location);
 //-----------------------------------------------------------------
 // Object creation with function
+//Pass by value is that when u assign the variable to another variable, it affects both the variables on updating the latter one.
+//Simple variables assigning takes pass by value
+//Pass by reference goes for object data type.
+//One does not affect another
+
+function Person(id){
+  let id=id;
+  this.name='hat';
+  this.setId=function(id){
+    _id=id;
+  }
+  this.getId=function(){
+    return _id;
+  }
+}
+const person=new Person('10');
+person.setId(2);
+console.log(person.getId());
