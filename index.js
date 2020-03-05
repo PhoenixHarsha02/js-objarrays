@@ -67,4 +67,5 @@ obj.setDept("Information Technology");
 console.log(obj.dept);
 obj.setLocation("Chennai");
 console.log(obj.location);
-//--------------------------------------------------------------
+//-----------------------------------------------------------------
+// Object creation with function
