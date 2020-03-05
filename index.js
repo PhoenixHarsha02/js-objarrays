@@ -46,5 +46,25 @@ let id=obj.getId();
 console.log('ID:',id);
 let name=obj.getName();
 console.log('Name:',name);
-let phone=obj.getPhone;
-console.log('ID:',id);
+let phone=obj.getPhone();
+console.log('Phone:',phone);
+let college=obj.getCollege();
+console.log('College:',college);
+let dept=obj.getDept();
+console.log('Department:',dept);
+let location=obj.getLocation();
+console.log('Location:',location);
+
+obj.setId(100);
+console.log(obj.id);
+obj.setName("Phoenix");
+console.log(obj.name);
+obj.setPhone(1234567890);
+console.log(obj.phone);
+obj.setCollege("SKCT");
+console.log(obj.college);
+obj.setDept("Information Technology");
+console.log(obj.dept);
+obj.setLocation("Chennai");
+console.log(obj.location);
+//--------------------------------------------------------------
